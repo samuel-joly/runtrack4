@@ -1,20 +1,28 @@
 body
 {
 	display:flex;
+	flex-direction:column;
 }
 
+main
+{
+	display:flex;
+}
 
 .section
 {
+	max-width:300px;
 	width:300px;
 	height:7em;
 	background:#88c1d0;
-	margin:2em;
+	margin:0.5em;
 }
+
+
 
 @media only screen and (min-width: 1600px)
 {
-	body
+	main
 	{
 		flex-direction:row;
 	}
@@ -23,16 +31,19 @@ body
 
 @media only screen and (min-width: 768px) and (max-width: 1599px)
 {
-	body
+	main
 	{
 		flex-wrap:wrap;
+		width:700px;
 	}
 }
 
 @media only screen and (max-width: 767px) 
 {
-	body
+
+	main
 	{
+		align-items:center;
 		flex-direction:column;
 	}
 }
