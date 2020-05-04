@@ -1,0 +1,38 @@
+body
+{
+	display:flex;
+}
+
+
+.section
+{
+	width:300px;
+	height:7em;
+	background:#88c1d0;
+	margin:2em;
+}
+
+@media only screen and (min-width: 1600px)
+{
+	body
+	{
+		flex-direction:row;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1599px)
+{
+	body
+	{
+		flex-wrap:wrap;
+	}
+}
+
+@media only screen and (max-width: 767px) 
+{
+	body
+	{
+		flex-direction:column;
+	}
+}
