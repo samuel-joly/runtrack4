@@ -10,11 +10,11 @@
 
 	<body>
 		<header>
-			<nav class='teal lighten-4 center-align '>
-				<a href='#' class='red-text text-darken-4' >Accueil</a>
-				<a href='#' class='red-text text-darken-4'>Inscription</a>
-				<a href='#' class='red-text text-darken-4'>Connection</a>
-				<a href='#' class='red-text text-darken-4'>Recherche</a>
+			<nav class='center-align '>
+				<a href='#' class='' >Accueil</a>
+				<a href='#' class=''>Inscription</a>
+				<a href='#' class=''>Connection</a>
+				<a href='#' class=''>Recherche</a>
 			</nav>
 		</header>
 
@@ -35,10 +35,10 @@
 					<label for='location'class='col s4 '>Location: <input type='text' name='location' required/></label>
 					<label for='psw'class='col s4 right'>Password: <input type='password' name='psw' required/></label>
 					<label for='c-psw'class='col s4 right'>Verify password: <input type='password' name='c-psw' required/></label>
-					<p class='helpter-text col s12'>Passions:</p>
+					<p class='helpter-text center-align col s12'>Passions:</p>
 
-					<div class='row left-align left'>
-						<p class='col s3  '>
+					<div class='row center-align left '>
+						<p class='col s3'>
 							<label>
 								<input type='checkbox' name='passion' value='c'/>
 								<span>C</span>
@@ -104,20 +104,29 @@
 						</p>
 					</div>						
 
-					<input type='submit' value='Register' name='register'/>
+					<input type='submit' value='Register' name='register' class='col s6 button btn-large'/>
 				</form>
 			</section>
 		</main>
 
 
 
-		<footer>
-			<nav class='teal lighten-4 center-align'>
-				<a href='#'>Accueil</a>
-				<a href='#'>Inscription</a>
-				<a href='#'>Connection</a>
-				<a href='#'>Recherche</a>
-			</nav>
+		<footer class='page-footer row'>
+				<div class='col s6'>
+					<p class='center-align black-text'>This site is provided to you by laPlateforme_</p>
+				</div>
+
+				<div class='col s6 row '>
+					<a href='#' class='col s6 black-text'>Accueil</a>
+					<a href='#' class='col s6 black-text'>Inscription</a>
+					<a href='#' class='col s6 black-text'>Connection</a>
+					<a href='#' class='col s6 black-text'>Recherche</a>
+				</div>
+
+				<div class='footer-copyright col s12'>
+					 <p class='black-text'>Copyright 2020 LaPlateforme_</p>
+					 <a href='#' class='right black-text '>More info</a>
+				</div>
 		</footer>
 				
 	</body>
