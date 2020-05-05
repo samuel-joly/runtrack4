@@ -165,13 +165,22 @@
 
 
 
-		<footer>
-			<nav class='teal lighten-4 center-align row'>
-				<a href='#' class='text-black col s3'>Accueil</a>
-				<a href='#' class='text-black col s3'>Inscription</a>
-				<a href='#' class='text-black col s3'>Connection</a>
-				<a href='#' class='text-black col s3'>Recherche</a>
-			</nav>
+		<footer class='page-footer row teal lighten-4'>
+				<div class='col s6'>
+					<p class='center-align black-text'>This site is provided to you by laPlateforme_</p>
+				</div>
+
+				<div class='col s6 row '>
+					<a href='#' class='col s6 black-text'>Accueil</a>
+					<a href='#' class='col s6 black-text'>Inscription</a>
+					<a href='#' class='col s6 black-text'>Connection</a>
+					<a href='#' class='col s6 black-text'>Recherche</a>
+				</div>
+
+				<div class='footer-copyright col s12 valign-center'>
+					 <p class='black-text'>Copyright 2020 LaPlateforme_</p>
+					 <p href='#' class='right row'><a href='#' class='black-text'>More info<i class='material-icons right'>link</i></a></p>
+				</div>
 		</footer>
 				
 	</body>
