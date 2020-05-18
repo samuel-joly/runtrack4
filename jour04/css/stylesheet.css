@@ -1,0 +1,36 @@
+main
+{
+	overflow-x:none;
+}
+/*--------------INDEX--------------*/
+
+#connZone
+{
+	height:13em;
+}
+
+
+#showLog,#showSign
+{
+	height:5em;
+	transition:all 0.3s ease;
+	border-radius:5px;
+	margin:0.5em;
+}
+
+#showLog:hover,#showSign:hover
+{
+	background:#e7e7e7;
+	cursor:pointer;
+}
+
+#imgSecu
+{
+	height:20em;
+}
+
+ul
+{
+	list-style:none;
+	font-size:0.9em;
+}
